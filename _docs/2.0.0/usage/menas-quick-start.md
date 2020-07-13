@@ -7,6 +7,9 @@ categories:
     - usage
 ---
 
+<p>{{ site.base_url }}/assets/images/{{ include.name }}</p>
+{{ site.base_url }}/assets/images/{{ include.name }}
+
 First of all, to run anything we will need a dataset and its corresponding schema defined in Menas UI. _Standardization_ and _Conformance_ spark jobs will then take this information from Menas when run. First, let us go to the URL where it is deployed. There you will be greeted by a login window. If you made no changes to the `application.conf` your default login is `user` for username and `changeme` for password. Otherwise log in with the credentials you have chosen.
 
 {% include image.html name="usage/menas_login.png" alt="Menas Login Page" %}
